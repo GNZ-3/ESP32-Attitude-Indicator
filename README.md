@@ -2,9 +2,12 @@
  Attitude Indicator by TFT_eSPI.
 
 
-You need
+You need:
+
  ESP32 (32KB)
+ 
  GC9A01 (240x240 round LCD)
+ 
 
 How to connet:
 
@@ -18,6 +21,7 @@ You can send command trough serial connection.(not WiFi)
 (I am not implementetd WiFi.)
 
 move #roll degree,#pitch degree
-  e.g.) move 100,50
+
+e.g.) move 100,50
 
 Special thanks to Bodmer and Rowboteer for your code.
