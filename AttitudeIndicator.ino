@@ -62,7 +62,7 @@ void setup(void) {
 
   tft.begin();
   tft.setRotation(3);
-  tft.
+
   // Draw background
   tft.fillRect(0,  0, MAXX, CY, s_color);
   tft.fillRect(0, CY, MAXX, CY, g_color );
